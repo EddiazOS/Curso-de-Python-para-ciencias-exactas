@@ -2,7 +2,6 @@
 title: Curso de Python para Ciencias Exactas
 author: Grupo de Investigación Química Cuántica y Teórica – Facultad de Ciencias, Universidad de Cartagena
 copyright: "2026"
-logo: assets/logo.png
 
 # Información del libro
 description: >
@@ -13,7 +12,6 @@ description: >
 # Configuración de lanzamiento (Colab)
 launch_buttons:
   colab_url: "https://colab.research.google.com"
-  binderhub_url: ""
   notebook_interface: "classic"
   thebe: false
 
@@ -29,13 +27,12 @@ html:
   use_repository_button: true
   use_edit_page_button: false
   home_page_in_navbar: false
-  favicon: assets/favicon.ico
   extra_footer: |
     <p>
-      © 2026 Grupo de Investigación Química Cuántica y Teórica, 
+      © 2026 Grupo de Investigación Química Cuántica y Teórica,
       Facultad de Ciencias, Universidad de Cartagena.<br>
-      Adaptación del curso <a href="https://secquoia.github.io/PU_CHE597_DSinChemE/" target="_blank">CHE597 de Purdue University</a> 
-      por David E. Bernal Neira, bajo licencia 
+      Adaptación del curso <a href="https://secquoia.github.io/PU_CHE597_DSinChemE/" target="_blank">CHE597 de Purdue University</a>
+      por David E. Bernal Neira, bajo licencia
       <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank">CC-BY-4.0</a>.
     </p>
 
