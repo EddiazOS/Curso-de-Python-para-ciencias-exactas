@@ -26,7 +26,7 @@ html:
   use_issues_button: true
   use_repository_button: true
   use_edit_page_button: false
-  home_page_in_navbar: false
+  home_page_in_navbar: true
   extra_footer: |
     <p>
       © 2026 Grupo de Investigación Química Cuántica y Teórica,
