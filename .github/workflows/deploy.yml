@@ -19,31 +19,23 @@ jobs:
     steps:
       - name: Checkout del repositorio
         uses: actions/checkout@v4
-        env:
-          FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
 
       - name: Configurar Python
         uses: actions/setup-python@v5
         with:
-          python-version: '3.12'
-        env:
-          FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+          python-version: '3.11'
 
-      - name: Instalar dependencias
-        run: pip install jupyter-book
+      - name: Instalar Jupyter Book v1
+        run: pip install "jupyter-book>=0.15,<2.0"
 
       - name: Construir el libro
-        run: jupyter-book build . 2>&1
+        run: jupyter-book build .
 
       - name: Subir artefacto de GitHub Pages
         uses: actions/upload-pages-artifact@v3
         with:
           path: '_build/html'
-        env:
-          FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
 
       - name: Desplegar en GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
-        env:
-          FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
