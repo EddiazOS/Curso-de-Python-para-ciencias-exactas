@@ -1,0 +1,46 @@
+# Configuración de Jupyter Book
+title: Curso de Python para Ciencias Exactas
+author: Grupo de Investigación Química Cuántica y Teórica – Facultad de Ciencias, Universidad de Cartagena
+copyright: "2026"
+logo: assets/logo.png
+
+# Información del libro
+description: >
+  Adaptación al español del curso CHE597 de Purdue University.
+  Diseñado para estudiantes de biología, química, física y ciencias afines
+  de la Universidad de Cartagena.
+
+# Configuración de lanzamiento (Colab)
+launch_buttons:
+  colab_url: "https://colab.research.google.com"
+  binderhub_url: ""
+  notebook_interface: "classic"
+  thebe: false
+
+# Repositorio
+repository:
+  url: https://github.com/EddiazOS/Curso-de-Python-para-ciencias-exactas
+  branch: main
+  path_to_book: .
+
+# Opciones HTML
+html:
+  use_issues_button: true
+  use_repository_button: true
+  use_edit_page_button: false
+  home_page_in_navbar: false
+  favicon: assets/favicon.ico
+  extra_footer: |
+    <p>
+      © 2026 Grupo de Investigación Química Cuántica y Teórica, 
+      Facultad de Ciencias, Universidad de Cartagena.<br>
+      Adaptación del curso <a href="https://secquoia.github.io/PU_CHE597_DSinChemE/" target="_blank">CHE597 de Purdue University</a> 
+      por David E. Bernal Neira, bajo licencia 
+      <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank">CC-BY-4.0</a>.
+    </p>
+
+# Sphinx
+sphinx:
+  config:
+    language: es
+    html_show_copyright: false

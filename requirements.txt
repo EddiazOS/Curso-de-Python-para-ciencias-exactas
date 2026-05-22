@@ -1,0 +1,5 @@
+jupyter-book>=1.0
+numpy
+matplotlib
+pandas
+scikit-learn

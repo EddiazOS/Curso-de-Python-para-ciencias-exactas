@@ -1,0 +1,51 @@
+# Tabla de contenidos del curso
+format: jb-book
+root: intro
+
+parts:
+  - caption: "🚀 Primeros Pasos"
+    chapters:
+    - file: leccion-00/introduccion
+
+  - caption: "🐍 Módulo 1 — Fundamentos de Python"
+    chapters:
+    - file: leccion-01/python-intro
+
+  - caption: "🔢 Módulo 2 — Análisis Numérico"
+    chapters:
+    - file: leccion-02/numpy
+    - file: leccion-03/matplotlib
+
+  - caption: "📊 Módulo 3 — Manejo de Datos"
+    chapters:
+    - file: leccion-04/pandas-overview
+    - file: leccion-05/pandas-ejemplo
+    - file: leccion-06/desarrollo-iterativo
+
+  - caption: "📈 Módulo 4 — Modelado y Estadística"
+    chapters:
+    - file: leccion-07/ejemplo-aplicado
+    - file: leccion-08/regresion-lineal
+    - file: leccion-09/optimizacion-gradiente
+    - file: leccion-10/optimizacion-heuristica
+    - file: leccion-11/estimacion-parametros
+
+  - caption: "🤖 Módulo 5 — Aprendizaje Automático"
+    chapters:
+    - file: leccion-12/arboles-decision
+    - file: leccion-13/clasificacion
+    - file: leccion-14/aprendizaje-supervisado
+    - file: leccion-20/aprendizaje-no-supervisado
+    - file: leccion-21/clustering-aplicado
+
+  - caption: "🧠 Módulo 6 — Aprendizaje Profundo"
+    chapters:
+    - file: leccion-15/deep-learning
+    - file: leccion-16/pytorch
+    - file: leccion-17/pytorch-convolucion
+    - file: leccion-18/transfer-learning
+    - file: leccion-19/procesos-gaussianos
+
+  - caption: "⚛️ Módulo 7 — Temas Avanzados"
+    chapters:
+    - file: leccion-22/quantum-ml
